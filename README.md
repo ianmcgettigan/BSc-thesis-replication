@@ -11,7 +11,8 @@ Replication data and code for ON THE DETERMINANTS OF TRUST: CAUSAL EVIDENCE FROM
 2. Ensure you have a LaTeX distribution installed on your machine and
    ensure you have STATA installed. 
 3. Change directory into `.do` in your STATA console. Run `do filename.do`
-   for each `.do` file. Each file will reproduce the correct values
+   for each `.do` file. Do not run `programs.do` or `analysis.do`; these
+       are called by `master.do`. Each file will reproduce the correct values
        for the tables and figures seen in my paper; it will not, however,
            format the tables as shown in my paper. This was done by me
            manually. But the values are the same, which is the main thing.
